@@ -17,7 +17,7 @@ class Post
   end
   
   def author_name
-    author.name ? name : nil
+    author.name.empty? ? nil : author.name
   end
 
 end
