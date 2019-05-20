@@ -17,11 +17,7 @@ class Post
   end
   
   def author_name
-    if author.name.blank?
-      return nil
-    elsif author.name
-      return author.name
-    end
+    author.name
   end
 
 end
