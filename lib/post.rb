@@ -21,6 +21,7 @@ class Post
       return nil
     elsif author.name
       return author.name
+    end
   end
 
 end
